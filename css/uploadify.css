@@ -1,0 +1,89 @@
+/*
+Uploadify
+Copyright (c) 2012 Reactive Apps, Ronnie Garcia
+Released under the MIT License <http://www.opensource.org/licenses/mit-license.php> 
+*/
+
+#SWFUpload_0{
+	right: 0 !important;
+}
+.uploadify-button{text-decoration: none;}
+
+
+.data{
+	margin-left: 10px;
+	font-size: 16px;
+  	font-family: Roboto-Regular;
+  	font-weight: 600;
+  	position: relative;
+  	top: 1px;
+}
+.fileName{
+	background-color: #000;
+	color: #fff;
+	text-align: center;
+	border-radius: 2px;
+	padding: 0 8px 1px;
+	font-size: 12px;
+  	font-family: Roboto-Regular;
+  	font-weight: 600;
+  	text-transform: uppercase;
+}
+.uploadify {
+	width: auto !important;
+	position: relative;
+	margin-bottom: 1em;
+	text-decoration: underline;
+}
+.uploadify:hover .uploadify-button{text-decoration: none;}
+
+.uploadify-button {
+	float: right;
+	font-size: 16px;
+  	font-family: Roboto-Regular;
+  	font-weight: 600;
+  	color: #2e3094;
+  	text-decoration: underline;
+}
+
+
+.uploadify-button.disabled {
+	background-color: #D0D0D0;
+	color: #808080;
+}
+.uploadify-queue {
+	margin-bottom: 1em;
+}
+.uploadify-queue-item {
+	
+	font: 11px Verdana, Geneva, sans-serif;
+	margin-top: 15px;
+	/*max-width: 350px;*/
+	/*padding: 10px;*/
+}
+.uploadify-error {
+	background-color: #FDE5DD !important;
+}
+.uploadify-queue-item .cancel a {
+	background: url('../images/doc-cross.png') 0 0 no-repeat;
+	float: right;
+	height:	10px;
+	text-indent: -9999px;
+	width: 10px;
+	position: relative;
+  	top: 9px;
+}
+.uploadify-queue-item.completed {
+	background-color: #E5E5E5;
+}
+.uploadify-progress {
+	background-color: #E5E5E5;
+	margin-top: 10px;
+	width: 100%;
+}
+.uploadify-progress-bar {
+	background-color: #15bf9f;
+	border-radius: 6px;
+	height: 6px;
+	width: 1px;
+}

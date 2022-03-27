@@ -1,0 +1,1 @@
+$(document).ready((function(){$(".popular-items").equalize({children:".item-title",reset:!0}),$(".popular-items").equalize({children:".item-disc",reset:!0})}));
